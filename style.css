@@ -1,0 +1,44 @@
+body {
+    background-image: url(./images/playground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+}
+
+.choice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.choice-container p {
+    border: black 2px solid;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+p {
+    color: black;
+    font-size: 64px;
+    cursor: pointer;
+    text-align: center;
+    margin: 30px;
+}
+
+.score p {
+    cursor: default;
+}
+
+#win-message {
+    visibility: hidden;
+}
+
+.reset {
+    margin-top: 100px;
+}
