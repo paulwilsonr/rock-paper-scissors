@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors</title>
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
     <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -15,9 +15,9 @@
         <p id="lose">Losses: 0</p>
     </div>
     <div class="choice-container">
-    <p onclick="game('rock')">Rock</p>
-    <p onclick="game('paper')">Paper</p>
-    <p onclick="game('scissors')">Scissors</p>
+    <button class="playerChoice">Rock</button>
+    <button class="playerChoice">Paper</button>
+    <button class="playerChoice">Scissors</button>
     </div>
     <p id="win-message">win message</p>
     <p class="reset" onclick="resetScore()">Reset</p>

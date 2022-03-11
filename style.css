@@ -23,7 +23,7 @@ body {
     background-color: white;
 }
 
-p {
+button, p {
     color: black;
     font-size: 64px;
     cursor: pointer;
